@@ -1,0 +1,52 @@
+{
+  "name": "webpack2-starter-kit",
+  "version": "1.0.0",
+  "repository": "https://github.com/michaelgenesini/webpack-bolerplate",
+  "scripts": {
+    "dev:validate": "",
+    "dev:dashboard": "webpack-dashboard -- webpack-dev-server --env.development",
+    "dev": "webpack-dev-server --env.development",
+    "build": "webpack --env.production",
+    "uncss": "purifycss dist/styles/main.css src/scripts/**/*.js src/*.html --min --out dist/main.min.css"
+  },
+  "keywords": [
+    "webpack 3",
+    "es6",
+    "sass",
+    "postcss",
+    "HMR"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "purify-css": "^1.2.5",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-bundle-analyzer": "^2.8.2",
+    "webpack-dashboard": "^0.4.0",
+    "webpack-dev-server": "^2.5.0",
+    "webpack-validator": "^3.0.0"
+  },
+  "author": {
+    "name": "Michael Genesini",
+    "email": "michael.genesini@gmail.com"
+  },
+  "license": "MIT"
+}
